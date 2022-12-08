@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +35,106 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sub-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  text-align: left;
+}
+
+.half-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 300px;
+}
+
+.gif {
+  padding-top: 250px;
+}
+
+.first-tile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 25%;
+}
+.tile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10%;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.header-video {
+  width: 60%;
+}
+
+.project-title {
+  padding-top: 2%;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.centered-button {
+  padding-top: 2%;
+  text-align: center;
+}
+
+.return-button {
+  padding-top: 2%;
+  padding-right: 20%;
+  display: inline-block;
+}
+.project-date {
+  padding-bottom: 1%;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.return-button {
+  padding-bottom: 1%;
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  float: right;
+}
+
+.header-video {
+  width: 60%;
+}
+
+.storyboard-video {
+  width: 45%;
+}
+
+.storyboard-video-right {
+  width: 45%;
+  float: right;
+}
+
+.storyboard-text {
+  width: 45%;
+  display: inline-block;
+}
+
+.storyboard-text-right {
+  width: 45%;
+  float: right;
 }
