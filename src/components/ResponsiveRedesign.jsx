@@ -93,9 +93,6 @@ export default function ResponsiveRedesign(props) {
       >
         View Redesigned Site
       </Button>
-      <h6 style={{ padding: "1%" }}>
-        https://delightfuldolphin212.github.io/responsive-redesign/
-      </h6>
       <h2 className="project-title">Conclusion</h2>
       <h6 className="project-date">
         Through Responsive Redesign, I learned the importance of staying

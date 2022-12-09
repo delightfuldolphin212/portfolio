@@ -105,7 +105,9 @@ export default function Home(props) {
               application—supporting sorting, filtering, and the maitenance of a
               cart.
             </Card.Text>
-            <Button variant="primary">Explore Further</Button>
+            <Button variant="outline-primary" href="/development">
+              Explore Further
+            </Button>
           </Card.Body>
           <Card.Footer className="text-muted">November 29, 2022</Card.Footer>
         </Card>
