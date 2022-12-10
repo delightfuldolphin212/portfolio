@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Header from "./components/Header";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Personas from "./components/Personas";
 import ResponsiveRedesign from "./components/ResponsiveRedesign";
 import IterativeDesign from "./components/IterativeDesign";
@@ -14,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Header /> */}
         <Routes>
           <Route path="/personas" element={<Personas />} />
           <Route path="/responsive-redesign" element={<ResponsiveRedesign />} />

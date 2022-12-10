@@ -1,9 +1,3 @@
-import Accordion from "react-bootstrap/Accordion";
-import Col from "react-bootstrap/Col";
-import Nav from "react-bootstrap/Nav";
-import Row from "react-bootstrap/Row";
-import Tab from "react-bootstrap/Tab";
-import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 export default function ResponsiveRedesign(props) {
