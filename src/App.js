@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/personas" element={<Personas />} />
-        <Route path="/responsive-redesign" element={<ResponsiveRedesign />} />
-        <Route path="/iterative-design" element={<IterativeDesign />} />
-        <Route path="/development" element={<Development />} />
-        <Route path="/" element={<Home />} />
+        <Route path="./personas" element={<Personas />} />
+        <Route path="./responsive-redesign" element={<ResponsiveRedesign />} />
+        <Route path="./iterative-design" element={<IterativeDesign />} />
+        <Route path="./development" element={<Development />} />
+        <Route path="./" element={<Home />} />
       </Routes>
 
       <h6 className="footer"> &#xA9; 2022 My CS1300 Portfolio</h6>

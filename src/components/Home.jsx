@@ -39,7 +39,7 @@ export default function Home(props) {
               understanding of the relationship between a user interface and one
               of its primary personas—the delivery driver.
             </Card.Text>
-            <Button variant="outline-primary" href="/personas">
+            <Button variant="outline-primary" href="./personas">
               Explore Further
             </Button>
           </Card.Body>
@@ -61,7 +61,7 @@ export default function Home(props) {
               internet. It especially needed a responsive redesign to accomodate
               today's mobile users.
             </Card.Text>
-            <Button variant="outline-primary" href="/responsive-redesign">
+            <Button variant="outline-primary" href="./responsive-redesign">
               Explore Further
             </Button>
           </Card.Body>
@@ -84,7 +84,7 @@ export default function Home(props) {
               iteration—tweaking our design based on the comments of
               professional UI testers.
             </Card.Text>
-            <Button variant="outline-primary" href="/iterative-design">
+            <Button variant="outline-primary" href="./iterative-design">
               Explore Further
             </Button>
           </Card.Body>
@@ -105,7 +105,7 @@ export default function Home(props) {
               application—supporting sorting, filtering, and the maitenance of a
               cart.
             </Card.Text>
-            <Button variant="outline-primary" href="/development">
+            <Button variant="outline-primary" href="./development">
               Explore Further
             </Button>
           </Card.Body>
