@@ -1,10 +1,7 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <div>
       <div className="gallery-container">
@@ -30,7 +27,7 @@ export default function Home(props) {
 
       <div className="first-tile">
         <Card style={{ width: "40rem" }}>
-          <Card.Img variant="top" src={require("../assets/personas.png")} />
+          <Card.Img variant="top" src={require("../assets/personas.jpg")} />
           <Card.Body>
             <Card.Title>Personas</Card.Title>
             <Card.Text>
@@ -39,7 +36,10 @@ export default function Home(props) {
               understanding of the relationship between a user interface and one
               of its primary personas—the delivery driver.
             </Card.Text>
-            <Button variant="outline-primary" href="./personas">
+            <Button
+              variant="outline-primary"
+              href="https://delightfuldolphin212.github.io/personas"
+            >
               Explore Further
             </Button>
           </Card.Body>
@@ -50,7 +50,7 @@ export default function Home(props) {
         <Card style={{ width: "40rem" }}>
           <Card.Img
             variant="top"
-            src={require("../assets/responsive-redesign.png")}
+            src={require("../assets/responsive-redesign.jpg")}
           />
           <Card.Body>
             <Card.Title>Responsive Redesign</Card.Title>
@@ -61,7 +61,10 @@ export default function Home(props) {
               internet. It especially needed a responsive redesign to accomodate
               today's mobile users.
             </Card.Text>
-            <Button variant="outline-primary" href="./responsive-redesign">
+            <Button
+              variant="outline-primary"
+              href="https://delightfuldolphin212.github.io/responsive"
+            >
               Explore Further
             </Button>
           </Card.Body>
@@ -72,7 +75,7 @@ export default function Home(props) {
         <Card style={{ width: "40rem" }}>
           <Card.Img
             variant="top"
-            src={require("../assets/iterative-design.png")}
+            src={require("../assets/iterative-design.jpg")}
           />
           <Card.Body>
             <Card.Title>Iterative Design</Card.Title>
@@ -84,7 +87,10 @@ export default function Home(props) {
               iteration—tweaking our design based on the comments of
               professional UI testers.
             </Card.Text>
-            <Button variant="outline-primary" href="./iterative-design">
+            <Button
+              variant="outline-primary"
+              href="https://delightfuldolphin212.github.io/iterative"
+            >
               Explore Further
             </Button>
           </Card.Body>
@@ -93,7 +99,7 @@ export default function Home(props) {
       </div>
       <div className="tile">
         <Card style={{ width: "40rem" }}>
-          <Card.Img variant="top" src={require("../assets/development.png")} />
+          <Card.Img variant="top" src={require("../assets/development.jpg")} />
           <Card.Body>
             <Card.Title>Development</Card.Title>
             <Card.Text>
@@ -105,7 +111,10 @@ export default function Home(props) {
               application—supporting sorting, filtering, and the maitenance of a
               cart.
             </Card.Text>
-            <Button variant="outline-primary" href="./development">
+            <Button
+              variant="outline-primary"
+              href="https://delightfuldolphin212.github.io/dev"
+            >
               Explore Further
             </Button>
           </Card.Body>
